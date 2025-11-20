@@ -916,14 +916,49 @@ section {
     .contact-wrapper {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
+        padding: 0 var(--spacing-md);
+    }
+
+    .contact-form-container {
+        padding: var(--spacing-md);
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-info-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .submit-btn {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .social-link {
         flex-direction: row;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .social-text-wrapper {
         text-align: left;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .social-handle {
+        word-break: break-word;
+    }
+
+    .contact-main-description {
+        padding: 0 var(--spacing-md);
     }
 }
 
